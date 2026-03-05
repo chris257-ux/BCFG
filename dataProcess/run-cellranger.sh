@@ -1,0 +1,1 @@
+cellranger count --id=$1 --transcriptome=/home/chenliqun/project/processScRNAData/raw/cellranger/refdata-gex-GRCh38-2024-A --fastqs=/home/chenliqun/project/processScRNAData/raw/ --sample=$1 --include-introns=true --localcores=8 --localmem=64 --create-bam=true
